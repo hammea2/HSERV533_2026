@@ -8,7 +8,7 @@ library(tidyverse)
 library(psych)
 
 # Load dataset
-birthdata_cophp <- read.csv("/home/jovyan/HSERV_533/data/birthdata_cophp.csv")
+birthdata_cophp <- read.csv("/home/jovyan/HSERV_533/Case_3/birthdata_cophp.csv")
 ## Note that if you are not using this script on JupyterHub RStudio you will need to change the file path.
 
 # Look at the first 6 observations of the data

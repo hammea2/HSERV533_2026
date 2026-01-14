@@ -5,7 +5,7 @@ install.packages("table1")
 library(table1)
 
 # Load data
-birthdata_cophp <- read.csv("/home/jovyan/HSERV_533/data/birthdata_cophp.csv") # Change the file path if you are not using JupyterHub RStudio
+birthdata_cophp <- read.csv("/home/jovyan/HSERV_533/Case_3/birthdata_cophp.csv") # Change the file path if you are not using JupyterHub RStudio
 
 # Example Table 1
 ## Factor variables are categorical variables -> Lets R know that we have categories even if the values are numerical

@@ -54,7 +54,7 @@ is.na(ym)
 rm(list=ls()) 
 
 ## Setting the working directory (The place where you have the datasets stored on the computer you are working on)
-setwd("/home/jovyan/HSERV_533/data/") # This is the folder (file directory) where course data sets are stored in the JupyterHub environment
+setwd("/home/jovyan/HSERV_533/R_introduction/") # This is the folder (file directory) where course data sets are stored in the JupyterHub environment
 
 ## Reading in your data set
 
@@ -63,10 +63,10 @@ library(readxl) # This is a R package for loading excel files into R (if you are
 pd <- read_excel("WorldPop.xlsx", col_names = TRUE) # This is a function in the readxl package that loads excel files into R
 
 # Reading in the same dataset using using its full path (location on the computer) instead of just the file name
-pd_path <- read_excel("/home/jovyan/HSERV_533/data/WorldPop.xlsx", col_names = TRUE)
+pd_path <- read_excel("/home/jovyan/HSERV_533/R_introduction/WorldPop.xlsx", col_names = TRUE)
 
 # Reading a the same dataset but stored as a comma-separated (.csv) file
-pd_csv <- read.csv("/home/jovyan/HSERV_533/data/WorldPop.csv", stringsAsFactors = FALSE)
+pd_csv <- read.csv("/home/jovyan/HSERV_533/R_introduction/WorldPop.csv", stringsAsFactors = FALSE)
 
 #---------------------------------------------------------------------------------------#
 ##Exploring the dataset

@@ -6,7 +6,7 @@ library(tidyverse)
 # Please look at the "Case 5 Codebook (BRFSS)" for value labels
 
 # If you are not using JupyterHub RStudio, you need to change the path to read the data
-case5 <- read.csv("/home/jovyan/HSERV_533/data/Case5_Short.csv") 
+case5 <- read.csv("/home/jovyan/HSERV_533/Case_5/Case5_Short.csv") 
 
 ### You can do data cleaning and transformations at this stage before running the models
 
