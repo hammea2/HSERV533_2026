@@ -194,7 +194,7 @@ pd.reg.pop <- pd %>%
             AvgCountPop = mean(pop2012)) %>%
   arrange(desc(TotalRegPop))
 
-
+pd.reg.pop
 
 
 
